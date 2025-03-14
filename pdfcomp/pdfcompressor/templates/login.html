@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="mt-5 text-center">
+    <h1>PDF Compressor</h1>
+    <p>Please login with GitHub to continue</p>
+    <a href="{% url 'social:begin' 'github' %}" class="btn btn-primary">Login with GitHub</a>
+</div>
+{% endblock %}
